@@ -1,0 +1,16 @@
+{
+  "name": "belajar-nodejs-npm-library-khannedy",
+  "version": "1.1.0",
+  "description": "Belajar NodeJS NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eko Kurniawan Khannedy",
+  "license": "ISC",
+  "exports": {
+    ".": "./index.js",
+    "./number": "./number.js"
+  }
+}
